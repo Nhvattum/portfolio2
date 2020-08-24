@@ -1,9 +1,73 @@
 html,
 body {
   padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  margin: 0 auto;
+  /* margin-bottom: 50px; */
+  width: 70vw;
+  /* display: flex;
+  justify-self: center;
+  align-self: center;
+  flex-direction: column; */
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; */
+  font-family: 'Do Hyeon', sans-serif;
+  text-align: center;
+  background: rgb(114, 153, 176);
+}
+
+/* ---------- FOOTER ---------- */
+.footer {
+  display: flex;
+  height: 1em;
+  margin-bottom: 0px;
+}
+
+.createdBy {
+  text-align: center;
+  width: 40vw;
+}
+
+.footerSide {
+  width: 15vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.githubLink {
+  padding-left: .5em;
+}
+
+/* ----------- LANDING PAGE --------------- */
+
+main {
+  background: rgb(114, 153, 176);
+  text-align: center;
+}
+
+.navBar {
+  background: rgb(86, 116, 133);
+  border-bottom: solid 3px rgb(67, 67, 67);
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  margin-left: -15vw;
+  margin-right: -15vw;
+  padding-right: 15vw;
+  /* width: 70vw; */
+  height: 5em;
+  line-height: 5em;
+}
+
+.favicon {
+  margin-left: 14vw;
+}
+
+.navButtons {
+  display: flex;
+}
+
+.navLink {
+  color: black;
 }
 
 a {
@@ -11,6 +75,95 @@ a {
   text-decoration: none;
 }
 
+/* ---------- HOME PAGE --------- */
+.home {
+  background: rgb(114, 153, 176);
+}
+
+.nickHvattum {
+  font-size: 10vw;
+}
+
+.homePhoto {
+  width: 20vw;
+  border-radius: 3%;
+}
+
+.homeHeader {
+  display: flex;
+  justify-content: space-between;
+  text-align: e;
+}
+
+.homeSection {
+  padding-bottom: 80px;
+}
+
+/* .techSection {
+  background: rgb(60, 100, 25);
+} */
+
+.technologies {
+  display: flex;
+  justify-content: center;
+}
+
+.logoList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 15%;
+}
+
+.recentProjects {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project {
+  padding-top: "100px";
+}
+
+.projectTitle {
+  padding-top: .5em;
+  padding-left: 1em;
+}
+
+.projectLink {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* -------- RESUME -------- */
+.resume {
+  width: 70vw;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
 * {
   box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* ----------- ABOUT ----------- */
+
+.about {
+  background: rgb(114, 153, 176);
+}
+
+.aboutCard {
+  margin-top: 2em;
+}
+
+.aboutText {
+  text-align: start;
+  margin-bottom: 1em;
+}
+
+.whoNick {
+  text-align: center;
 }
